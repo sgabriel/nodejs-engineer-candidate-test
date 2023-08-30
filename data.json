@@ -1,0 +1,90 @@
+[
+	{
+		"arv": "JFK",
+		"dep": "FRA",
+		"airline": "ID",
+		"flightNumber": 400,
+		"paxEco": 472,
+		"paxBusiness": 40,
+		"paxFirst": 3,
+		"std": "2023-08-29T10:00:00.000Z",
+		"sta": "2023-08-29T16:00:00.000Z",
+		"ata": "2023-08-29T10:02:45.000Z",
+		"atd": "2023-08-29T15:58:00.000Z"
+	},
+	{
+		"arv": "FRA",
+		"dep": "JFK",
+		"airline": "ID",
+		"flightNumber": 401,
+		"paxEco": 435,
+		"paxBusiness": 36,
+		"paxFirst": 2,
+		"std": "2023-08-29T18:00:00.000Z",
+		"sta": "2023-08-30T00:00:00.000Z"
+	},
+	{
+		"arv": "FRA",
+		"dep": "MUC",
+		"airline": "ID",
+		"flightNumber": 133,
+		"paxEco": 150,
+		"paxBusiness": 40,
+		"paxFirst": 0,
+		"std": "2023-08-30T11:05:00.000Z",
+		"sta": "2023-08-30T12:30:00.000Z",
+		"delay": null
+	},
+	{
+		"arv": "CDG",
+		"dep": "FRA",
+		"airline": "ID",
+		"flightNumber": 1110,
+		"paxEco": 100,
+		"paxBusiness": 20,
+		"paxFirst": 0,
+		"std": "2023-08-30T10:30:00.000Z",
+		"sta": "2023-08-30T12:30:00.000Z",
+		"atd": "2023-08-30T10:35:00.000Z",
+		"delay": { "value": 5, "status": "green" }
+	},
+	{
+		"arv": "FRA",
+		"dep": "CDG",
+		"airline": "ID",
+		"flightNumber": 1111,
+		"paxEco": 200,
+		"paxBusiness": 5,
+		"paxFirst": 0,
+		"std": "2023-08-30T13:00:00.000Z",
+		"sta": "2023-08-30T15:30:00.000Z",
+		"atd": null,
+		"delay": null
+	},
+	{
+		"arv": "HAM",
+		"dep": "CGN",
+		"airline": "ID",
+		"flightNumber": 1048,
+		"paxEco": 100,
+		"paxBusiness": 10,
+		"paxFirst": 0,
+		"std": "2023-08-30T14:00:00.000Z",
+		"sta": "2023-08-30T15:00:00.000Z",
+		"atd": null,
+		"delay": null
+	},
+	{
+		"arv": "BER",
+		"dep": "FRA",
+		"airline": "ID",
+		"flightNumber": 1115,
+		"paxEco": 150,
+		"paxBusiness": 20,
+		"paxFirst": 0,
+		"std": "2023-08-30T10:40:00.000Z",
+		"sta": "2023-08-30T12:00:00.000Z",
+		"atd": "2023-08-30T11:00:00.000Z",
+		"delay": { "value": 20, "status": "red" }
+	}
+]
