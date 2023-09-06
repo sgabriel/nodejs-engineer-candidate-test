@@ -1,4 +1,4 @@
-const impl = require('./index_solved');
+const impl = require('./index');
 
 function test(name, fn, expectedResult) {
 	console.log('-----------------------------------------------------------------');
@@ -8,6 +8,6 @@ function test(name, fn, expectedResult) {
 }
 
 test('Flights departing FRA', impl.countFlightsDepartingFRA, 3);
-test('Flights enroute', impl.countDepartedNotArrived, 4);
+test('Flights enroute', impl.countDepartedNotArrived, 2);
 test('Number of booked passengers', impl.countBookedPassengers, 1607);
 test('All airports', impl.allAirports, ['JFK', 'FRA', 'MUC', 'CDG', 'HAM', 'CGN', 'BER']);
